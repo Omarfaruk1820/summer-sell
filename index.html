@@ -15,18 +15,19 @@
 
 <body>
     <header>
-    <div class=" flex flex-col-1 lg:flex-cols-2 bg-fuchsia-200  ">
-        <div class="lg:w-full  mt-40  ">
+    <div class=" flex  flex-col-1 lg:flex-rows-2 bg-fuchsia-200  ">
+        <div class="lg:w-full  lg:mt-40  ">
             
             <h1 class="text-2xl text-end ">---SALE FEVER---</h1>
-            <h1 class="text-1xl text-end mt-5 font-bold text-2xl">Purchase TK 200 or<br> above & get
+            <h1 class="text-1xl text-end lg:mt-5 font-bold text-2xl">Purchase TK 200 or<br> above & get
                  <span class="text-pink-600">20% off</span></h1>
             
-                <h2 class="text-1xl text-end font-bold text-2xl mt-10">Use Promo Code</h2>
+                <h2 class="text-1xl text-end font-bold text-2xl lg:mt-10">Use Promo Code</h2>
+                <button id="btn-Sell200" class="btn btn-secondary">SELL200</button>
                 </div>
 
         <div class=" lg:w-full ">
-            <img class="lg:p-20  lg:w-[500px]" src="image/Summer 1.png">
+            <img class="md:p-20  md:w-[500px]" src="image/Summer 1.png">
         </div>
     </div>
 </header>
@@ -34,9 +35,9 @@
 <!--card section-->
 <main class="">
 <!--fast card-->
-<div class="bg-gray-100  ">
-<h1 class="text-5xl mt-20 mb-5 ml-28">Kitchenware</h1>
-<div class="flex flex-col  lg:flex-row-2 w-9/12 mx-auto">
+<div class="bg-gray-100">
+<h1 class="text-5xl mt-20 mb-5 ml-40">Kitchenware</h1>
+<div class="flex flex flex-cols-1  lg:flex-rows-2 lg:w-9/12 mx-auto">
     <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
     <div class="card card-compact lg:w-56 bg-base-100   items-center">
         <figure><img class=" bg-gray-200 h-40 md:w-48 p-10 mt-4 rounded-xl " src="image/prod1.png" alt="product1" /></figure>
@@ -88,8 +89,12 @@
         </div>
       </div>
 
-
-      <div class="card card-compact lg:w-56 bg-base-100 shadow-xl items-center">
+      <!--new div-->
+      
+      
+      
+        
+<div class="card card-compact lg:w-56 bg-base-100 shadow-xl items-center">
         <figure><img class="bg-gray-200 h-40 w-48 p-10 mt-4 rounded-xl" src="image/prod4.png" alt="product4" /></figure>
         <div class="card-body">
             <div class="rating">
@@ -138,6 +143,7 @@
           
         </div>
       </div>
+    
 
       <!--card7-->
       <div class="card card-compact lg:w-56 bg-base-100 shadow-xl items-center">
@@ -197,7 +203,7 @@
       
 
     <div class="w-[300px] w-9/12 mx-auto">
-        <div class="text-2xl">Area Calculator</div>
+        <div class="text-3xl text-center">Have Coupon?</div>
         <div id="calculation-entry"></div>
 
     </div>
@@ -207,4 +213,5 @@
 </main>
     
 </body>
+<script src="index.js"></script>
 </html>
